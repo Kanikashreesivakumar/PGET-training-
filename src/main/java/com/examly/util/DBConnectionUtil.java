@@ -15,10 +15,7 @@ public class DBConnectionUtil {
     private DBConnectionUtil() {
     }
 
-    public static Connection getConnection() throws SQLException {
-        String host = getSetting("PETFINDR_DB_HOST", DEFAULT_HOST);
-        String port = getSetting("PETFINDR_DB_PORT", DEFAULT_PORT);
-        String dbName = getSetting("PETFINDR_DB_NAME", DEFAULT_DB);
+    public staticDEFAULT_DB);
         String username = getSetting("PETFINDR_DB_USER", DEFAULT_USERNAME);
         String password = getSetting("PETFINDR_DB_PASS", DEFAULT_PASSWORD);
 
