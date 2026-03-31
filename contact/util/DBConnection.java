@@ -20,7 +20,7 @@ public class DBConnection {
                 StatementPrepared stmt = connection.createStatement();
 
                 String sql = "CREATE TABLE IF NOT EXISTS contacts("+
-                "contactid INT AUTO_INCREMENT PRIMARY KEY", +"contactname VARCHAR(100),"+
+                "contactid INT AUTO_INCREMENT PRIMARY KEY", +"contactname VARCHAR(100),"+ ""
             } 
         } catch (
              e) {
